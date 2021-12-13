@@ -1,116 +1,162 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Salut",
+    "description": "👋 Je suis Nouh RIFAI élève ingénieur 3ème année en génie informatique à l'ENSIIE de Evry. Je suis actuellement à la recherche d'un stage de fin d'études en : (Data Science ou Dévloppement Web/Mobile). \nDiscipliné, doté d'une bonne faculté d'adaptation et d'une insatiable curiosité. J'ai toujours le plaisir de creuser plus loin avec le désir de comprendre le sens des choses et d'enrichir mes expériences.\nNiveau excellent en anglais et en français.\n En ce qui concerne mon centre d'interêts, la lecture, le voyage et le bénévolat me font un plaisir incomparable.\nMerci d'avoir visité mon portefolio. Bonne journée ❤️ ",
+    "section_name": {
+      "about": "Profil",
+      "projects": "Projets",
+      "skills": "Compétences",
+      "experience": "Parcours"
+    }
+  },
+  "projects": [
+    {
+      "title": "Covid-19 à Île-de-france",
+      "startDate": "2021",
+      "description": "Visualisations et analyse des données, mises à jour journellement, sur la situation pandémique dans les 8 différents départements de la région Île-de-france.",
+      "images": [
+        "images/portfolio/covid/1.jpg",
+        "images/portfolio/covid/2.jpg"
+      ],
+      "url": "https://covid-19-ile-de-france.herokuapp.com",
+      "technologies": [
+        {
+          "class": "devicon-python-plain colored",
+          "name": "Python"
+        }
+        
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Movie Recommender",
+      "startDate": "2021",
+      "description": "Système de recommandation des films, mettant en œuvre plusieurs solutions de recommandations basées sur le contenu, ou/et sur le filtrage collaboratif. La modélisation de la solution proposée a été faite sur jupyter dans un premier temps, puis industrialisée sur Flask et React.",
+      "images": [
+        "images/portfolio/m-reco/1.jpg",
+        "images/portfolio/m-reco/2.jpg"
+      ],
+      "url": "https://m-reco.herokuapp.com/",
+      "technologies": [
+        {
+          "class": "devicon-python-plain colored",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-flask-original colored",
+          "name": "Flask"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-heroku-plain colored",
+          "name": "Heroku"
+        },
+        {
+          "class": "devicon-jupyter-plain colored",
+          "name": "Jupyter"
+        }
+      ]
+    },
+    {
+      "title": "Fall Detection Classifier",
+      "startDate": "2021",
+      "description": "",
+      "images": [
+        "images/portfolio/fall-detection/p1.jpg",
+        "images/portfolio/fall-detection/p1.jpg"
+      ],
+      "url": "https://github.com/nouhRifai/Fall-Detection-Classifier",
+      "technologies": [
+        {
+          "class": "devicon-python-plain colored",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-jupyter-plain colored",
+          "name": "Jupyter"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "ENSIIE de Evry",
+      "title": "Étudiant 3ème année en génie informatique",
+      "years": "09.2021 - present",
+      "mainTech": [
+        "Python"
+      ],
+      "technologies": [
+        "Pandas",
+        "Scikit-learn",
+        "Numpy",
+        "Scipy",
+        "Surprise",
+        "Tensorflow",
+        "Keras",
+        "PyTorch",
+        "Seaborn",
+        "Matplotlib",
+        "Pyqlearning",
+        "KerasRL",
+        "MushroomRL"
+      ]
+    },
+    {
+      "company": "EMI de Rabat",
+      "title": "Étudiant 1ère et 2ème année en génie inofrmatique",
+      "years": "09.2019 - 09.2021",
+      "mainTech": [
+        "Java 8"
+      ],
+      "technologies": [
+        "Flask",
+        "Python",
+        "R",
+        "Django",
+        "NodeJs",
+        "React",
+        "Asp.NET",
+        "C",
+        "J2EE",
+        "Springboot",
+        "Express",
+        "RESTful API",
+        "UML",
+        "Github",
+        "SQL",
+        "Jira"
+      ]
+    },
+    {
+      "company": "EROG de Casablanca",
+      "title": "Stage dans les forces de l'ordre",
+      "years": "08.2018 - 08.2019",
+      "mainTech": [
+        
+      ],
+      "technologies": [
+        
+      ]
+    },
+    {
+      "company": "ARM de Meknes",
+      "title": "Licence en Génie Mécanique",
+      "years": "08.2014 - 07.2018",
+      "mainTech": [
+        "C"
+      ],
+      "technologies": [
+        "C",
+        "Catia",
+        "Matlab",
+        "Octave",
+        "C#",
+        "Unity3D",
+        "Blender"
+      ]
+    }
+  ]
+}

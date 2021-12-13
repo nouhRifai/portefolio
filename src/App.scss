@@ -174,7 +174,9 @@ header h1 {
 	display: block;
 	max-width: 200px;
 }
-
+.text-black{
+	color: #000;
+}
 .polaroid span {
 	background: #ffffff;
 	display: inline-block;
@@ -260,6 +262,11 @@ header h1 {
 		font-size: 170%;
 		margin-top: 27%;
 		text-align: center;
+	}
+}
+@media (min-width: 796px) {
+	.chart {
+		width: 50%
 	}
 }
 
@@ -375,9 +382,17 @@ header h1 {
 		margin-bottom: 30px;
 	}
 }
+@media (max-width: 768px){
+	.chart {
+		width: 100%
+	}
+}
 
+.chart {
+	display: inline-block;
+}
 #skills {
-	background: #1F1F1F;
+	background: #f7d749;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
