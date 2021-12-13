@@ -1,67 +1,42 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Nouh RIFAI",
+      "titles": [ "Data Scientist", "Data Engineer", "Machine Learning Engineer", "Fullstack Web Developer", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/nouhRifai",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedIn",
+          "url": "https://www.linkedin.com/in/nouh-rifai/",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "my_profile.png"
     },
     "skills": {
-      "icons": [
+      "labels": ["Supervised Learning Algorithms", "Unsupervised Learning Algorithms", "Reinforcement Learning Algorithms", "Neural Networks", "Data Engineering", "Data Analysis", "Data Vizualisation", "Business Intelligence", "SQL", "Python", "R", "Flask", "Django", "RESTful Api", "NodeJs", "J2EE", ".NET", "React", "React Native"],
+      "datasets": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
+          "label": "My Interest",
+          "data": [9, 8.5, 8.5, 8, 8, 7, 8.5, 7.5, 8, 9, 7, 7.4, 6, 6.75, 7, 7, 4.5, 7, 6],
+          "backgroundColor": "rgba(255, 99, 132, 0.2)",
+          "borderColor": "rgba(255, 99, 132, 1)",
+          "borderWidth": 1
+        }
+      ]
+    },
+    "skills_data": {
+      "labels": ["Supervised Learning Algorithms", "Unsupervised Learning Algorithms", "Reinforcement Learning Algorithms", "Neural Networks", "Data Engineering", "Data Analysis", "Data Vizualisation", "Business Intelligence", "SQL", "Python", "R", "Flask", "Django", "RESTful Api", "NodeJs", "J2EE", ".NET", "React", "React Native"],
+      "datasets": [
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "label": "My Interest",
+          "data": [9, 8.5, 8.5, 8, 8, 7, 8.5, 7, 7, 9, 7, 7.4, 5, 6, 7, 7, 5, 7, 6],
+          "backgroundColor": "rgba(255, 99, 132, 0.2)",
+          "borderColor": "rgba(255, 99, 132, 1)",
+          "borderWidth": 1
         }
       ]
     }

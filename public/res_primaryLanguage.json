@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Greetings",
+      "description": "👋 My name is Nouh RIFAI 3rd year computer science student at ENSIIE of Evry. I am curretly searching for an internship in the following domains : (Data Science or Web/Mobile Development).\nDisciplined, with good adaptability and an insatiable curiosity. I always have the pleasure of digging deeper with the desire to understand the meaning of things and to enrich my experiences. \nVery good English and French communication skills, both written and verbal.\n As for my center of interests, I like reading, traveling and volunteer work.\nThanks for your visit. Have a lovely day ❤️ ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,151 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Covid-19 in Île-de-france",
+        "startDate": "2021",
+        "description": "Vizualisations and analyse of updated data about Covid-19 in the 8 different departements of Île-de-france Region.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/covid/1.jpg",
+        "images/portfolio/covid/2.jpg"
         ],
-        "url": "",
+        "url": "https://covid-19-ile-de-france.herokuapp.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain colored",
+            "name": "Python"
           }
+          
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Movie Recommender",
+        "startDate": "2021",
+        "description": "Movie recommender system, providing different solutions of recommendations based on content and on collaboratif filtering. Modelisation of the solution was firstly made on jupyter, then I industrialized it using Flask, and React as a friendly Frontend.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/m-reco/1.jpg",
+        "images/portfolio/m-reco/2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://m-reco.herokuapp.com/",
         "technologies": [
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-flask-original colored",
+            "name": "Flask"
+          },
           {
             "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-heroku-plain colored",
+            "name": "Heroku"
+          },
+          {
+            "class": "devicon-jupyter-plain colored",
+            "name": "Jupyter"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Fall Detection Classifier",
+        "startDate": "2021",
+        "description": "",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/fall-detection/1.jpg",
+        "images/portfolio/fall-detection/1.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/nouhRifai/Fall-Detection-Classifier",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain colored",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-jupyter-plain-wordmark colored",
+            "name": "Jupyter"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "ENSIIE of Evry",
+        "title": "Student 3rd year in Computer Science",
+        "years": "09.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Python"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Pandas",
+          "Scikit-learn",
+          "Numpy",
+          "Scipy",
+          "Surprise",
+          "Tensorflow",
+          "Keras",
+          "PyTorch",
+          "Seaborn",
+          "Matplotlib",
+          "Pyqlearning",
+          "KerasRL",
+          "MushroomRL"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "EMI of Rabat",
+        "title": "Student 1st and 2nd year in Computer Science",
+        "years": "09.2019 - 09.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Java 8"
         ],
         "technologies": [
-          "RxJS",
+          "Flask",
+          "Python",
+          "R",
           "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "NodeJs",
+          "React",
+          "Asp.NET",
+          "C",
+          "J2EE",
+          "Springboot",
+          "Express",
+          "RESTful API",
+          "UML",
+          "Github",
+          "SQL",
+          "Jira"
+        ]
+      },
+      {
+        "company": "EROG of Casablanca",
+        "title": "Intern in Law Enforcement",
+        "years": "08.2018 - 08.2019",
+        "mainTech": [
+          
+        ],
+        "technologies": [
+          
+        ]
+      },
+      {
+        "company": "ARM of Meknes",
+        "title": "Licence in Mechanical Engineering",
+        "years": "08.2014 - 07.2018",
+        "mainTech": [
+          "C"
+        ],
+        "technologies": [
+          "C",
+          "Catia",
+          "Matlab",
+          "Octave",
+          "C#",
+          "Unity3D",
+          "Blender"
         ]
       }
     ]

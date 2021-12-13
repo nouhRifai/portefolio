@@ -111,7 +111,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-france"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
@@ -128,6 +128,7 @@ class App extends Component {
         <Skills
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
+          skillsData={this.state.sharedData.skills_data}
         />
         <Experience
           resumeExperience={this.state.resumeData.experience}
