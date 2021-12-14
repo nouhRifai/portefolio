@@ -14,26 +14,45 @@
           "class": "fab fa-linkedin"
         }
       ],
-      "image": "my_profile.png"
+      "image": "my_profile.JPG"
     },
     "skills": {
-      "labels": ["Supervised Learning Algorithms", "Unsupervised Learning Algorithms", "Reinforcement Learning Algorithms", "Neural Networks", "Data Engineering", "Data Analysis", "Data Vizualisation", "Business Intelligence", "SQL", "Python", "R", "Flask", "Django", "RESTful Api", "NodeJs", "J2EE", ".NET", "React", "React Native"],
+      "labels": ["Machine Learning", "Deep Learning", "AI", "Data Engineering", "Data Analysis", "Data Visualization", "Business Intelligence", "Web Development", "Mobile Development", "DevOps", "MLOps"],
       "datasets": [
         {
-          "label": "My Interest",
-          "data": [9, 8.5, 8.5, 8, 8, 7, 8.5, 7.5, 8, 9, 7, 7.4, 6, 6.75, 7, 7, 4.5, 7, 6],
+          "label": "My General Interest",
+          "data": [9, 8.5, 8, 8.5, 8, 8.5, 7.5, 7, 7, 6, 7],
           "backgroundColor": "rgba(255, 99, 132, 0.2)",
           "borderColor": "rgba(255, 99, 132, 1)",
           "borderWidth": 1
         }
       ]
     },
-    "skills_data": {
-      "labels": ["Supervised Learning Algorithms", "Unsupervised Learning Algorithms", "Reinforcement Learning Algorithms", "Neural Networks", "Data Engineering", "Data Analysis", "Data Vizualisation", "Business Intelligence", "SQL", "Python", "R", "Flask", "Django", "RESTful Api", "NodeJs", "J2EE", ".NET", "React", "React Native"],
+    "skills_tech": {
+      "labels": ["SQL", "Python", "R", "Flask", "Django", "NodeJs", "Express", "J2EE", "Springboot", "VB", "C#", "React", "React Native","RESTful Api"],
       "datasets": [
         {
-          "label": "My Interest",
-          "data": [9, 8.5, 8.5, 8, 8, 7, 8.5, 7, 7, 9, 7, 7.4, 5, 6, 7, 7, 5, 7, 6],
+          "label": "My Technological Interest",
+          "data": [8.5, 9, 8.5, 8.3, 7.7, 7, 7, 7, 7.5, 4, 6, 5.5, 5,8],
+          "backgroundColor": "rgba(255, 99, 132, 0.2)",
+          "borderColor": "rgba(255, 99, 132, 1)",
+          "borderWidth": 1
+        },
+        {
+          "label": "My Technological Skills",
+          "data": [8.5, 9, 8, 8, 7.5, 7.7, 7, 8, 7.5, 6, 7, 7.5, 6.7,8],
+          "backgroundColor": "rgba(137, 196, 244, 0.2)",
+          "borderColor": "rgba(1, 1, 122, 1)",
+          "borderWidth": 1
+        }
+      ]
+    },
+    "skills_data": {
+      "labels": ["Supervised L.", "Unsupervised L.", "Semi-Supervised L.", "Reinforcement L.", "Neural Networks", "NLP", "Data Cleansing", "Data Dim. Reduction", "DataViz", "SGBD"],
+      "datasets": [
+        {
+          "label": "My Interest in Data Science",
+          "data": [9, 8, 6, 7, 7, 7, 7.5, 7.5, 8, 8],
           "backgroundColor": "rgba(255, 99, 132, 0.2)",
           "borderColor": "rgba(255, 99, 132, 1)",
           "borderWidth": 1

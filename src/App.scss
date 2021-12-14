@@ -264,11 +264,7 @@ header h1 {
 		text-align: center;
 	}
 }
-@media (min-width: 796px) {
-	.chart {
-		width: 50%
-	}
-}
+
 
 .modal-inside .modal-content {
 	background: white;
@@ -382,12 +378,21 @@ header h1 {
 		margin-bottom: 30px;
 	}
 }
-@media (max-width: 768px){
+@media (min-width: 1200px) {
+	.chart {
+		width: 33%
+	}
+}
+@media (min-width: 900px) and (max-width: 1200px){
+	.chart {
+		width: 50%
+	}
+}
+@media (max-width: 900px){
 	.chart {
 		width: 100%
 	}
 }
-
 .chart {
 	display: inline-block;
 }

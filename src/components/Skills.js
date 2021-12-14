@@ -25,20 +25,15 @@ class Skills extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.skills;
       var s = React.createElement(
         Radar,
-        {data: this.props.sharedSkills, 
-          config : {
-            options: {
-              animations: {
-                tension: {
-                  duration: 1000,
-                  easing: 'easeInCubic',
-                  from: 1,
-                  to: 0,
-                  loop: true
-                }
-              }
-        }
-      }}
+        {data: this.props.sharedSkills}
+      );
+      var skills_tech = React.createElement(
+        Radar,
+        {data: this.props.skillsTech}
+      );
+      var skills_data = React.createElement(
+        Radar,
+        {data: this.props.skillsData}
       );
     }
       
@@ -76,6 +71,12 @@ class Skills extends Component {
             <ul>
               <li className="list-inline chart" >
                 {s}
+              </li>
+              <li className="list-inline chart" >
+                {skills_tech}
+              </li>
+              <li className="list-inline chart" >
+                {skills_data}
               </li>
             </ul>
           </div>
