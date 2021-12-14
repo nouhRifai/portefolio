@@ -68,7 +68,7 @@ class Skills extends Component {
             </h1>
           </div>
           <div className="col-md-12 text-center" >
-            <ul>
+            <ul style={{marginRight : "5%", marginLeft : "5%"}}>
               <li className="list-inline chart" >
                 {s}
               </li>

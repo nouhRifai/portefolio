@@ -31,7 +31,6 @@ class Certifications extends Component {
                   <img
                     src={certification.images[0]}
                     alt="certificationImages"
-                    height="230"
                     style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
                   />
                   <span className="project-date">{certification.startDate}</span>
