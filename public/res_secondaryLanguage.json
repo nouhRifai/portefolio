@@ -6,9 +6,48 @@
       "about": "Profil",
       "projects": "Projets",
       "skills": "Compétences",
-      "experience": "Parcours"
+      "experience": "Formation",
+      "certification": "Certification"
     }
   },
+  "certification": [
+    {
+      "title": "IoT Cloud Developer - IBM Mastery Award",
+      "startDate": "Jan 2021 - Jan 2023",
+      "description": "Cette certification m'a aidé à améliorer mon expertise pour identifier, concevoir et créer des solutions IoT, à l'aide d'IBM Watson IoT. Le titulaire du badge a démontré une maîtrise avancée de sujets tels que l'architecture IoT, le cloud IoT, Node-RED, les protocoles réseau IoT, les appareils de surveillance, les statistiques de rapport, les API REST et les services analytiques. Ce cours fournit une introduction générale à l'apprentissage automatique, à l'exploration de données et à la reconnaissance de formes statistiques.",
+      "images": [
+        "images/portfolio/certif/4.jpg"
+      ],
+      "url": "https://www.credly.com/badges/c27d5068-e67b-449d-8d9a-d47be0af5055/public_url"
+    },
+    {
+      "title": "Machine Learning - (Andrew NG course) Stanford University",
+      "startDate": "Fév 2021 - Fév 2023",
+      "description": "Dans ce cours, j'ai découvert les techniques d'apprentissage automatique les plus efficaces et je me suis entraîné à les mettre en œuvre et à les faire fonctionner par moi-même. Plus important encore, j'ai appris non seulement les fondements théoriques de l'apprentissage, mais j'ai également acquis le savoir-faire pratique nécessaire pour appliquer rapidement et puissamment ces techniques à de nouveaux problèmes. Enfin, j'ai découvert certaines des meilleures pratiques de la Silicon Valley en matière d'innovation en ce qui concerne l'apprentissage automatique et l'IA.",
+      "images": [
+        "images/portfolio/certif/1.jpg"
+      ],
+      "url": "https://www.coursera.org/account/accomplishments/verify/HQV4GPJ26ZJ7?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    },
+    {
+      "title": "Introduction to Data Science in Python - Michigan University",
+      "startDate": "Nov 2021 - Nov 2023",
+      "description": "Ce cours m'a présenté les techniques de manipulation et de nettoyage des données à l'aide de la populaire bibliothèque de science des données pandas, et l'abstraction de la série et du DataFrame en tant que structures de données centrales pour l'analyse des données, ainsi que des didacticiels sur l'utilisation de fonctions telles que groupby, merge, et tableaux croisés dynamiques efficacement. À la fin de ce cours, j'étais capable de prendre des données tabulaires, de les nettoyer, de les manipuler et d'exécuter des analyses statistiques inférentielles de base. (1er cours de la spécialisation : Applied Data Science with Python Specialization)",
+      "images": [
+        "images/portfolio/certif/2.jpg"
+      ],
+      "url": "https://coursera.org/share/cc1ec715f868fb8afd2ecc3b8d638ba9"
+    },
+    {
+      "title": "Applied Plotting, Charting & Data Representation in Python - Michigan University",
+      "startDate": "Déc 2021 - Déc 2023",
+      "description": "Ce cours m'a aidé à améliorer mes connaissances en termes de bases de la visualisation, en mettant l'accent sur les rapports et les graphiques à l'aide de la bibliothèque matplotlib. Le cours a commencé par une perspective de conception et de maîtrise de l'information, abordant ce qui fait une bonne et une mauvaise visualisation, et ce que les mesures statistiques se traduisent en termes de visualisations. Après cela, nous nous sommes concentrés sur la technologie utilisée pour faire des visualisations en python, matplotlib et présenter aux utilisateurs les meilleures pratiques lors de la création de graphiques de base et comment prendre des décisions de conception dans le cadre. Ensuite, j'ai eu la chance de voir une variété de graphiques statistiques de base m'aidant à identifier quand une méthode particulière est bonne pour un problème particulier. Le cours s'est terminé par une discussion sur d'autres formes de structuration et de visualisation des données. (2e cours de la spécialisation : Applied Data Science avec spécialisation Python)",
+      "images": [
+        "images/portfolio/certif/3.jpg"
+      ],
+      "url": "https://coursera.org/share/3806d1691056ceb8af0dca4b8e0e63d3"
+    }
+  ],
   "projects": [
     {
       "title": "Covid-19 à Île-de-france",

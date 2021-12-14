@@ -6,9 +6,48 @@
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Training",
+        "certification": "Certification"
       }
     },
+    "certification": [
+      {
+        "title": "IoT Cloud Developer - IBM Mastery Award",
+        "startDate": "Jan 2021 - Jan 2023",
+        "description": "This certification helped me improve my expertise to identify, design, and build IoT solutions, using IBM Watson IoT. The badge earner has demonstrated advanced proficiency in topics such as IoT architecture, IoT Cloud, Node-RED, IoT network protocols, monitoring devices, report statistics, REST APIs, and analytic services. This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition.",
+        "images": [
+          "images/portfolio/certif/4.jpg"
+        ],
+        "url": "https://www.credly.com/badges/c27d5068-e67b-449d-8d9a-d47be0af5055/public_url"
+      },
+      {
+        "title": "Machine Learning - (Andrew NG course) Stanford University",
+        "startDate": "Feb 2021 - Feb 2023",
+        "description": "In this class, I learned about the most effective machine learning techniques, and gained practice implementing them and getting them to work for myself. More importantly, I learned about not only the theoretical underpinnings of learning, but also gained the practical know-how needed to quickly and powerfully apply these techniques to new problems. Finally, I learned about some of Silicon Valley's best practices in innovation as it pertains to machine learning and AI.",
+        "images": [
+          "images/portfolio/certif/1.jpg"
+        ],
+        "url": "https://www.coursera.org/account/accomplishments/verify/HQV4GPJ26ZJ7?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+      },
+      {
+        "title": "Introduction to Data Science in Python - Michigan University",
+        "startDate": "Nov 2021 - Nov 2023",
+        "description": "This course introduced to me data manipulation and cleaning techniques using the popular python pandas data science library, and the abstraction of the Series and DataFrame as the central data structures for data analysis, along with tutorials on how to use functions such as groupby, merge, and pivot tables effectively. By the end of this course, I was able to take tabular data, clean it, manipulate it, and run basic inferential statistical analyses. (1st course in the specialization : Applied Data Science with Python Specialization)",
+        "images": [
+          "images/portfolio/certif/2.jpg"
+        ],
+        "url": "https://coursera.org/share/cc1ec715f868fb8afd2ecc3b8d638ba9"
+      },
+      {
+        "title": "Applied Plotting, Charting & Data Representation in Python - Michigan University",
+        "startDate": "Dec 2021 - Dec 2023",
+        "description": "This course helped me improve my knowledge in term of visualization basics, with a focus on reporting and charting using the matplotlib library. The course started with a design and information literacy perspective, touching on what makes a good and bad visualization, and what statistical measures translate into in terms of visualizations. After that, we focused on the technology used to make visualizations in python, matplotlib, and introduce users to best practices when creating basic charts and how to realize design decisions in the framework. Then I got the chance to see a variety of basic statistical charts helping me to identify when a particular method is good for a particular problem. The course ended with a discussion of other forms of structuring and visualizing data. (2nd course in the specialization : Applied Data Science with Python Specialization)",
+        "images": [
+          "images/portfolio/certif/3.jpg"
+        ],
+        "url": "https://coursera.org/share/3806d1691056ceb8af0dca4b8e0e63d3"
+      }
+    ],
     "projects": [
       {
         "title": "Covid-19 in Île-de-france",
